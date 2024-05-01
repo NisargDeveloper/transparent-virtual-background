@@ -119,7 +119,7 @@ async function start() {
         segmentedCanvas.width = videoElement.width;
 
         let lastTime = new Date();
-
+        console.log(lastTime);
         async function getFrames() {
             const now = videoElement.currentTime;
             if (now > lastTime){
